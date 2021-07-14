@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.container {
+  background-color: #07080c;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.image {
+  height: 300px;
+  width: 600px;
+}
+
+.para {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+
+.speed-editor {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+
+.min-and-max-speeds {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row;
+}
+.Accelerate-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-right: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.Apply-brk-btn {
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
